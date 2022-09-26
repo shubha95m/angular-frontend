@@ -4,11 +4,11 @@ import { HttpClientModule } from '@angular/common/http'
 import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { EmployeesListComponent } from './employer-list/employer-list.component';
-import { CreateEmployeeComponent } from './create-employee/create-employee.component';
-import { UpdateEmployeeComponent } from './update-employee/update-employee.component';
-import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
+import { AppComponent } from './app.component.js';
+import { EmployeesListComponent } from './employer-list/employer-list.component.js';
+import { CreateEmployeeComponent } from './create-employee/create-employee.component.js';
+import { UpdateEmployeeComponent } from './update-employee/update-employee.component.js';
+import { EmployeeDetailsComponent } from './employee-details/employee-details.component.js';
 import { LoginComponent } from './login/login.component';
 
 @NgModule({
